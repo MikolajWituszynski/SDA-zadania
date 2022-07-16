@@ -1,0 +1,82 @@
+.subscribe-button {
+    background-color: rgb(200, 0,0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 5px;
+    font-size: 18px;
+    transition: opacity 0.15s;
+    
+}
+.subscribe-button:hover {
+    background-color: rgb(200, 0,0);
+    opacity: 0.8
+}
+
+.subscribe-button:active {
+    opacity: 0.4;
+}
+.join-button {
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 36px;
+    width: 75px;
+    border-color: rgb(31,118, 211);
+    border-style: solid;
+    color:rgb(21, 103, 180);
+    border-color: rgb(21, 103, 180);
+    margin-right: 5px;
+    border-width: 1.5px;
+    transition: background-color 0.15s,
+        color 0.15s;
+    
+    
+    
+}
+.join-button:hover {
+    background-color: rgb(2, 158, 255);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
+
+.twitter-button {
+    background-color: rgb(29, 155, 240);
+    border-radius: 18px;
+    height: 36px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+    text-align: center;
+}       
+
+.twitter-button:hover {
+    box-shadow: 0px 8x 28px rgba(0,0,0.08);
+    background-color: rgb(26, 140, 216);
+}
+
+.explore-button {
+    background-color: white;
+    border: none;
+    height:46px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.explore-button:hover {
+    background-color:rgba(182, 178, 178, 0.527);
+}
